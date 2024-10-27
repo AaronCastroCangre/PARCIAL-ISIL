@@ -1,0 +1,158 @@
+.body{
+    color: white;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width:1249px;
+    height: 120px;
+    z-index: 999;
+    font-family: fantasy;
+}
+.logo{
+    display: flex;
+    padding: 0 15px;
+
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: rgb(230, 225, 216);
+    text-decoration: none;
+
+}
+
+nav li a:hover{
+    color: #da9b15;
+    text-decoration: none;
+}
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: rgb(230, 225, 216);
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #d47215;
+}
+
+.camara1{
+    margin-top:130px;
+    margin-left:1px;
+}
+.camara3{
+    margin-top:-566px;
+    margin-left:450px;    
+}
+.camara4{
+    margin-left:880px;
+    margin-top:-1060px;
+}
+.video2{
+    margin-top:597px;
+    margin-left:1px ;
+}
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+.filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+h3, p {
+    color: #fff;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.social-icons1 {
+    display: flex;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color:#da9b15;
+}
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    width:1212px;
+}
+.filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+h3, p {
+    color: #fff;
+    margin: 0;
+    font-family: inherit;
+}
+  
+.social-icons1 {
+    display: flex;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
